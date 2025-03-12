@@ -1,6 +1,11 @@
+# No terminal:
+git clone https://github.com/helvsroots/quantum-trading
+cd quantum-trading
+npm install
+git add .
+git commit -m "Initial commit"
 // src/components/SentimentoHoje.js
 import React from 'react';
-
 export default function SentimentoHoje() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 flex items-center justify-center p-4">
@@ -78,12 +83,7 @@ export default function SentimentoHoje() {
     </div>
   );
 }
-# No terminal:
-git clone https://github.com/helvsroots/quantum-trading
-cd quantum-trading
-npm install
-git add .
-git commit -m "Initial commit"
+
 git push origin main
 git clone https://github.com/helvsroots/quantum-trading
 cd quantum-trading
